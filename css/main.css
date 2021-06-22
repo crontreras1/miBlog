@@ -37,3 +37,25 @@ header .header__icons .icons {
 head .icons span {
     color: white;
 }
+nav {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    height: 90px;
+}
+nav .header__logo {
+    margin-left: 50px;
+}
+nav .header__logo img {
+    width: 220px;
+    margin-top: 10px;
+}
+nav .header__profile {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    margin-right: 50px;
+}
+nav .header__profile a {
+    color: black;
+    border-bottom: 1px solid black;
+}
