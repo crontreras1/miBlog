@@ -58,4 +58,37 @@ nav .header__profile {
 nav .header__profile a {
     color: black;
     border-bottom: 1px solid black;
+    font-family: monospace;
+    font-weight: bold;
+}
+main {
+    height: 100%;
+    background-image: url(../assets/img/Cover.png);
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+}
+main .main__container {
+    font-family: monospace;
+    text-align: center;
+    margin-top: 6rem;
+}
+main .main__container--title {
+    color: white;
+    letter-spacing: 10px;
+    font-size: 40px;
+    width: 50rem;
+}
+main .main__container--button {
+    width: 100px;
+    height: 30px;
+    margin: 0 auto;
+    padding-top: 10px;
+    background-color: #47cfac;
+}
+main .main__container--button a {
+    font-weight: bold;
+    font-size: 15px;
+    margin-top: 5px;
 }
