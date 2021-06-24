@@ -33,9 +33,10 @@ header .header__icons .icons {
     justify-content: space-between;
     justify-self: end;
     margin-right: 50px;
+    font-size: 25px;
 }
-head .icons span {
-    color: white;
+header .icons span {
+    color: #303841;
 }
 nav {
     display: grid;
