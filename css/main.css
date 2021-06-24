@@ -61,9 +61,10 @@ nav .header__profile a {
     color: #303841;
     border-bottom: 1px solid #303841;
     font-family: monospace;
+    font-size: 20px;
     font-weight: bold;
 }
-main {
+.home-main {
     height: 100%;
     background-image: url(../assets/img/pexels-sourav-mishra-3644828.jpg);
     background-size: cover;
@@ -71,18 +72,18 @@ main {
     display: flex;
     justify-content: center;
 }
-main .main__container {
+.home-main .home-main__container {
     font-family: monospace;
     text-align: center;
     margin-top: 6rem;
 }
-main .main__container--title {
+.home-main .home-main__container--title {
     color: #303841;
     letter-spacing: 10px;
     font-size: 40px;
     width: 50rem;
 }
-main .main__container--button {
+.home-main .home-main__container--button {
     width: 100px;
     height: 30px;
     margin: 0 auto;
@@ -91,7 +92,7 @@ main .main__container--button {
     border: 1px solid #303841;
     border-radius: 5px;
 }
-main .main__container--button a {
+.home-main .home-main__container--button a {
     font-weight: bold;
     font-size: 15px;
     color: #303841;
