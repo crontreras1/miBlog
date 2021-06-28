@@ -68,7 +68,7 @@ nav .header__profile a {
 }
 .home-main {
     height: 100%;
-    background-image: url(../assets/img/pexels-gijs-coolen-2948295.jpg);
+    background-image: url(../assets/img/shoper.jpg);
     background-size: cover;
     background-position: center;
     display: flex;
@@ -133,12 +133,12 @@ nav .header__profile a {
     margin-bottom: 45px;
     font-size: 20px;
 }
-.blogs-main__news-info a {
+.blogs-main__news-button {
     border: 1px solid #ffb350;
     background-color: #ffb350;
     font-size: 15px;
     border-radius: 3px;
-    padding: 5px 10px;
+    padding: 10px 15px;
     justify-content: center;
     margin-left: 10em;
 }
@@ -150,3 +150,27 @@ nav .header__profile a {
     padding-bottom: 20px;
     text-align: center;
 }
+.blogs-main__post-container .blogs-main__post {
+    display: inline-block;
+    padding-left: 10px;
+    max-width: 30%;
+    margin-bottom: 50px;
+}
+.blogs-main__post-container .blogs-main__post p {
+    margin-bottom: 35px;
+}
+.blogs-main__post-container .blogs-main__post img {
+    width: 60px;
+    height: 50px;
+}
+footer {
+    width: 100%;
+    height: 60px;
+    background-color: #303841;
+    margin-bottom: 0;
+    border-top: 20px solid #ffb350;
+    text-align: center;
+    font-size: 15px;
+    color: #ffb350;
+}
+    
