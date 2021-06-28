@@ -6,6 +6,7 @@ body {
     right: 0;
     bottom: 0;
     left: 0;
+    font-family: monospace;
 }
 a {
     text-decoration: none;
@@ -60,7 +61,6 @@ nav .header__profile {
 nav .header__profile a {
     color: #303841;
     border-bottom: 1px solid #303841;
-    font-family: monospace;
     font-size: 20px;
     font-weight: bold;
 }
@@ -73,7 +73,6 @@ nav .header__profile a {
     justify-content: center;
 }
 .home-main .home-main__container {
-    font-family: monospace;
     text-align: center;
     margin-top: 6rem;
 }
@@ -98,3 +97,24 @@ nav .header__profile a {
     color: #303841;
     margin-top: 5px;
 }
+.blogs-main {
+    display: grid;
+}
+.blogs-main__news-container {
+    background-color: #ffb350;
+    padding: 0 50px 40px;
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    grid-template-rows: 2fr;
+}
+.blogs-main__news-image {
+    grid-column: 1;
+}
+.blogs-main__news-image img {
+
+}
+.blogs-main__news-info {
+    grid-column: 2;
+}
+.blogs-main__news-info p {
+    margin-bottom: 30px;
