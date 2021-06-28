@@ -68,7 +68,7 @@ nav .header__profile a {
 }
 .home-main {
     height: 100%;
-    background-image: url(../assets/img/shoper.jpg);
+    background-image: url(../assets/img/bmw.jpg);
     background-size: cover;
     background-position: center;
     display: flex;
@@ -79,7 +79,7 @@ nav .header__profile a {
     margin-top: 6rem;
 }
 .home-main .home-main__container--title {
-    color: #303841;
+    color: #ffb350;
     letter-spacing: 10px;
     font-size: 40px;
     width: 50rem;
@@ -103,7 +103,7 @@ nav .header__profile a {
     display: grid;
 }
 .blogs-main__news-container {
-    background-color: #303841;
+    background-color: white;
     padding: 0 50px 40px;
     display: grid;
     grid-template-columns: 2fr 1fr;
@@ -144,6 +144,7 @@ nav .header__profile a {
 }
 .blogs-main__post-container {
     padding: 0 50px 40px;
+    background-color: #f3f3f3;
 }
 .blogs-main__post-container h3 {
     border-bottom: 1px solid #ffb350;
@@ -160,8 +161,7 @@ nav .header__profile a {
     margin-bottom: 35px;
 }
 .blogs-main__post-container .blogs-main__post img {
-    width: 60px;
-    height: 50px;
+    width: 60%;
 }
 footer {
     width: 100%;
@@ -171,6 +171,5 @@ footer {
     border-top: 20px solid #ffb350;
     text-align: center;
     font-size: 15px;
-    color: #ffb350;
+    color: #f3f3f3;
 }
-    
