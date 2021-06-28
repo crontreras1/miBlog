@@ -8,6 +8,10 @@ a {
     display: inline;
     color: black;
 }
+.grid-comntainer {
+    max-width: 980px;
+    margin: auto;
+}
 .home-body {
     position: fixed;
     top: 0;
@@ -161,7 +165,9 @@ nav .header__profile a {
     margin-bottom: 35px;
 }
 .blogs-main__post-container .blogs-main__post img {
-    width: 60%;
+    width: 300px;
+    height: 200px;
+    object-fit: cover;
 }
 footer {
     width: 100%;
