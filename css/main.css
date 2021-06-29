@@ -179,3 +179,39 @@ footer {
     font-size: 15px;
     color: #f3f3f3;
 }
+.blog-main__img-container img {
+    width: 80%;
+    padding: 0 50px 40px;
+}
+.blog-main__article-container {
+    padding: 0 50px 40px;
+
+}
+.blog-main__article-container h4 {
+    color: #303841;
+    padding-bottom: 10px;
+    border-bottom: 2px solid #f3f3f3;
+}
+.blog-main__article-container h2 {
+    font-size: 35px;
+}
+.main__contact {
+    /*height: 200px;*/
+    padding: 20px 200px;
+    background-color: #f3f3f3;
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr 2fr;
+    align-items: center;
+}
+.main__contact img {
+    width: 80%;
+    height: 50%;
+}
+.main__contact .main__contact--text {
+    /*margin-top: 40px;*/
+    color: #303841;
+}
+.main__contact .main__contact--text a {
+    text-decoration: none;
+    border-bottom: 1px solid #303841;
+}
